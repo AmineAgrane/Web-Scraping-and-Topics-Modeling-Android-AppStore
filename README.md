@@ -15,7 +15,7 @@ This project consist in 3 distinct parts :
 The first step in our project was extraction of user data from the Google Play Store. This will be done using Web Scrapping. The objective is to extract the content of a page from a site in a structured way. The main interest of Web Scrapping is to be able to harvest content from a website, which cannot be copied and pasted without distorting the very structure of the document. For this project, I wrote a Python script to perform Scrapping of user data and storage of these data in a structured form, which is a csv file.
 
 <p align="center">
-   <img src="https://github.com/AmineAgrane/Web-Scraping-and-Topics-Modeling-Android-AppStore/blob/main/doc/webscrapping.png" height="400" align="center"/>
+   <img src="https://github.com/AmineAgrane/Web-Scraping-and-Topics-Modeling-Android-AppStore/blob/main/doc/webscrapping.png" height="300" align="center"/>
 </p>
 
 The web scraping script was achieved using the [BeautifulSoup ](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Selenium ](https://selenium-python.readthedocs.io/) modules.
