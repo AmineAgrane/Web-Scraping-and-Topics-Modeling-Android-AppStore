@@ -25,7 +25,16 @@ The extracted data are stored in the "scraped_reviews" folder. For example, I sc
    <img src="https://github.com/AmineAgrane/Web-Scraping-and-Topics-Modeling-Android-AppStore/blob/main/doc/scrapped_reviews.png" height="180" align="center"/>
 </p>
 
-There is 7 columns
+There is 7 columns inside the csv : 
+- user_name : Username of the Google account 
+- date : Date of the reviews
+- num_stars : Number of stars of the review (1 to 5)
+- review : Textual review of the user
+- num_likes : Number of likes the review received from other users
+- user_name_answer : user_name of the ansewr
+- date_answer : Date of the answer
+- answer : Textual content of the answer
+
 ## Topics Modeling with Latent Dirichlet Allocation :
 Topîc modeling is a text mining model, using unsupervised and supervised statistical machine learning techniques to identify themes in a corpus or large amount of unstructured text. From a collection of documents, the model will group words into word clusters, identifying topics, through a process based on similarity.
 
