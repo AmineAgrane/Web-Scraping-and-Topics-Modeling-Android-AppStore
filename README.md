@@ -52,4 +52,3 @@ We can perform a two-dimensional visualization of the topics extracted from the 
 </p>
 
 The size of the circle represents the importance of each topic on the whole corpus, the distance between the center of the circles indicates the similarity between the topics. For each topic, the histogram on the right side lists the 30 most relevant terms. LDA helped me to extract 7 main topics.
-om/questions/4823468/store-comments-in-markdown-syntax)
