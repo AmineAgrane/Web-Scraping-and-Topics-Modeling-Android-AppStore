@@ -108,7 +108,7 @@ def full_reviews(review):
 if __name__ == "__main__" :
 
     # HTML link of the android application. 
-    android_app_html_link = "https://play.google.com/store/apps/details?id=com.netflix.mediaclient"
+    android_app_html_link = "https://play.google.com/store/apps/details?id=com.whatsapp"
 
     # language of the reviews : en, fr, etc
     lang ="en"
@@ -119,7 +119,7 @@ if __name__ == "__main__" :
 
 
     # name of the output csv to store the scrapped data.
-    csv_name = "netflix.csv"
+    csv_name = "whatsapp.csv"
 
     export_csv(csv_name, ExtractReviews(final_link, 10000))
 
