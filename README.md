@@ -21,7 +21,11 @@ The first step in our project was extraction of user data from the Google Play S
 The web scraping script was achieved using the [BeautifulSoup ](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Selenium ](https://selenium-python.readthedocs.io/) modules.
 The extracted data are stored in the "scraped_reviews" folder. For example, I scraped ***10.000***  reviews from Android applications like **Instagram**, **Facebook**, **Netflix**, etc
 
+<p align="center">
+   <img src="https://github.com/AmineAgrane/Web-Scraping-and-Topics-Modeling-Android-AppStore/blob/main/doc/scrapped_reviews.png" height="300" align="center"/>
+</p>
 
+There is 7 columns
 ## Topics Modeling with Latent Dirichlet Allocation :
 Topîc modeling is a text mining model, using unsupervised and supervised statistical machine learning techniques to identify themes in a corpus or large amount of unstructured text. From a collection of documents, the model will group words into word clusters, identifying topics, through a process based on similarity.
 
